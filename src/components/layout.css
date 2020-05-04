@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+html {
+  font-family: 'Pacifico', cursive;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+*, *::before, *::after {
+  scroll-behavior: smooth;
+}
+
+@media screen and (min-width: 576px) {
+  .body {
+    padding: 0 2rem;
+  }
+}
+
+@media screen and (min-width: 992px) {
+
+  .body {
+    height: auto;
+    display: flex;
+  }
+  .Image {
+    display: flex;
+    line-height: 0;
+  }
+
+}
